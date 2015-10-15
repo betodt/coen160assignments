@@ -1,0 +1,10 @@
+package diaztostado.assign1;
+
+public class Rectangle {
+	private int length;
+	private int width;
+	
+	Public Rectangle() {
+		
+	}
+}
