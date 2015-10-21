@@ -1,0 +1,13 @@
+package diaztostado.assign1;
+
+public class Frame extends Rectangle{
+	private String material;
+	
+	public Frame() {
+		// TODO Auto-generated constructor stub
+		super(0,0);
+		this.material = "";
+	}	
+	
+	
+}

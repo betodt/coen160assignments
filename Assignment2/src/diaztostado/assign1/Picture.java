@@ -1,32 +1,34 @@
 package diaztostado.assign1;
 
-public class Picture {
-	private int length;
-	private int width;
+public class Picture extends Rectangle{
+	private String title;
+	private String artist;
 	
-	public Picture () {
-		this.length = 0;
-		this.width = 0;
+	public Picture() {
+		super(0,0);
+		this.title = "";
+		this.artist = "";
 	}
 	
-	public Picture (int newLength, int newWidth) {
-		this.length = newLength;
-		this.width = newWidth;
+	public Picture(int length, int width, String title, String artist) {
+		super(length, width);
+		this.title = title;
+		this.artist = artist;
 	}
 	
-	public int getLength() {
-		return this.length;
+	public String getTitle() {
+		return title;
 	}
 	
-	public int getWidth() {
-		return this.width;
+	public String getArtist() {
+		return artist;
 	}
 	
-	public void setLength(int newLength) {
-		this.length = newLength;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 	
-	public void setWidth(int newWidth) {
-		this.width = newWidth;
+	public void setArtist(String artist) {
+		this.artist = artist;
 	}
 }

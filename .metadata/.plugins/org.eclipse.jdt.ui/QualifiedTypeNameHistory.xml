@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="diaztostado.assign1.Circle"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Frame"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Picture"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Rectangle"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Block"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Square"/>
 </qualifiedTypeNameHistroy>

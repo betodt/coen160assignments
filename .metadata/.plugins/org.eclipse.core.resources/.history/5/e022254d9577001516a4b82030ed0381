@@ -1,0 +1,8 @@
+package diaztostado.assign1;
+
+public class Frame extends Rectangle{
+	public public Frame() {
+		// TODO Auto-generated constructor stub
+		super(0,0);
+	}		
+}

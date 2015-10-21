@@ -1,0 +1,18 @@
+package diaztostado.assign1;
+
+public class Picture extends Rectangle{
+	private String title;
+	private String artist;
+	
+	public Picture() {
+		super(0,0);
+		this.title = "";
+		this.artist = "";
+	}
+	
+	public Picture(int length, int width, String title, String artist) {
+		super(length, width);
+		this.title = title;
+		this.artist = artist;
+	}
+}
