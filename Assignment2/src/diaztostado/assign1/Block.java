@@ -22,4 +22,8 @@ public class Block extends Rectangle{
 	public void setDepth(int depth) {
 		this.depth = depth;
 	}
+	
+	public int Volume() {
+		return this.depth * this.getLength() * this.getWidth();
+	}
 }

@@ -1,0 +1,14 @@
+package diaztostado.assign1;
+
+public class Box extends Block {
+
+	public Box() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Box(int length, int width, int depth) {
+		super(length, width, depth);
+		// TODO Auto-generated constructor stub
+	}
+
+}

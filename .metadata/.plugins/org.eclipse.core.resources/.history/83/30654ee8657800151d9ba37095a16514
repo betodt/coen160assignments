@@ -1,0 +1,9 @@
+package diaztostado.assign1;
+
+public class Box {
+
+	public Box() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

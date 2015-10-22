@@ -1,0 +1,14 @@
+package diaztostado.assign1;
+
+public class Wheel extends Cylinder {
+
+	public Wheel() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Wheel(int newRadius, int newHeight) {
+		super(newRadius, newHeight);
+		// TODO Auto-generated constructor stub
+	}
+
+}

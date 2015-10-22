@@ -1,0 +1,16 @@
+package diaztostado.assign1;
+
+public class Box extends Block {
+	private String content;
+
+	public Box() {
+		super(0,0,0);
+		this.content = "";
+	}
+
+	public Box(int length, int width, int depth, String content) {
+		super(length, width, depth);
+		this.content = content;
+	}
+
+}

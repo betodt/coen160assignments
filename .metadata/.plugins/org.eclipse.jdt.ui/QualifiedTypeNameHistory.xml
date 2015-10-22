@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="diaztostado.assign1.Circle"/>
-<fullyQualifiedTypeName name="diaztostado.assign1.Frame"/>
-<fullyQualifiedTypeName name="diaztostado.assign1.Picture"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ORB"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Rectangle"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Circle"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Picture"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Block"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Square"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Box"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.FramedPicture"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Frame"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.Wheel"/>
+<fullyQualifiedTypeName name="diaztostado.assign1.SoapBoxRacer"/>
 </qualifiedTypeNameHistroy>

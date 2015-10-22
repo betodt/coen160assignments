@@ -18,12 +18,17 @@
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\Alberto Diaz\SCU Drive\FALL2015\COEN160\coen160assignments\Assignment1\doc" key="destdir"/>
+		<item value="C:\Users\Alberto Diaz\SCU Drive\FALL2015\COEN160\coen160assignments\Assignment2\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
 			<section name="Assignment1">
 				<item value="C:\Users\Alberto Diaz\SCU Drive\FALL2015\COEN160\coen160assignments\Assignment1\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Alberto Diaz\SCU Drive\FALL2015\COEN160\coen160assignments\Assignment1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment2">
+				<item value="C:\Users\Alberto Diaz\SCU Drive\FALL2015\COEN160\coen160assignments\Assignment1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Alberto Diaz\SCU Drive\FALL2015\COEN160\coen160assignments\Assignment2\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>
@@ -47,8 +52,8 @@
 		</section>
 	</section>
 	<section name="NewClassWizardPage">
-		<item value="true" key="create_constructor"/>
-		<item value="true" key="create_unimplemented"/>
+		<item value="false" key="create_constructor"/>
+		<item value="false" key="create_unimplemented"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
@@ -57,6 +62,8 @@
 		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="quick_assist_proposal_size">
+		<item value="282" key="size.y"/>
+		<item value="446" key="size.x"/>
 	</section>
 	<section name="JavadocWizardDialog">
 		<item value="818" key="DIALOG_WIDTH"/>

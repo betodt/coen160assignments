@@ -1,0 +1,9 @@
+package diaztostado.assign1;
+
+public class FramedPicture {
+
+	public FramedPicture() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

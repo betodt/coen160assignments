@@ -1,0 +1,12 @@
+package diaztostado.assign1;
+
+public class SoapBoxRacer {
+	private Box boxType;
+	private Wheel wheelType;
+
+	public SoapBoxRacer() {
+		this.boxType = new Box();
+		this.wheelType = new Wheel();
+	}
+
+}

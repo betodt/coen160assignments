@@ -1,0 +1,17 @@
+package diaztostado.assign1;
+
+public class Cylinder extends Circle {
+	private int height;
+
+	public Cylinder() {
+		// TODO Auto-generated constructor stub
+		height = 0;
+	}
+
+	public Cylinder(int newRadius, int newHeight) {
+		super(newRadius);
+		// TODO Auto-generated constructor stub
+		this.height = newHeight;
+	}
+
+}

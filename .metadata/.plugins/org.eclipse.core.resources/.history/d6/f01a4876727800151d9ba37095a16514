@@ -1,0 +1,9 @@
+package diaztostado.assign1;
+
+public class SoapBoxRacer {
+
+	public SoapBoxRacer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

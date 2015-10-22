@@ -1,0 +1,25 @@
+package diaztostado.assign1;
+
+public class Square {
+	private int side;
+	private Rectangle square;
+
+	public Square() {
+		this.side = 0;
+		this.square = new Rectangle();
+	}
+	
+	public Square(int side) {
+		this.side = side;
+		this.square = new Rectangle(side, side);
+	}
+	
+	public int getSide() {
+		return this.side;
+	}
+	
+	public void setSide(int side) {
+		this.side = side;
+	}
+
+}
