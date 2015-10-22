@@ -91,9 +91,8 @@ public class Thermostat {
 	 * @param double degrees
 	 */
 	public void reduceF(double degrees) {
-		double newDegrees = currentTemperature.getDegrees() - degrees;
-		if(inLimit(newDegrees))
-			currentTemperature.setDegrees(newDegrees);
+		if(inLimit(degrees))
+			currentTemperature.setDegrees(currentTemperature.getDegrees() - degrees);
 	}
 	
 	/**
@@ -101,9 +100,8 @@ public class Thermostat {
 	 * @param double degrees
 	 */
 	public void reduceC(double degrees) {
-		double newDegrees = toFarenheit(toCelsius(currentTemperature.getDegrees()) - degrees);
-		if(inLimit(newDegrees))
-			currentTemperature.setDegrees(newDegrees);
+		if(inLimit(toFarenheit(degrees)))
+			currentTemperature.setDegrees(toFarenheit(toCelsius(currentTemperature.getDegrees()) - degrees));
 	}
 	
 	/**
@@ -111,9 +109,8 @@ public class Thermostat {
 	 * @param double degrees
 	 */
 	public void increaseF(double degrees) {
-		double newDegrees = currentTemperature.getDegrees() + degrees;
-		if(inLimit(newDegrees))
-			currentTemperature.setDegrees(newDegrees);
+		if(inLimit(degrees))
+			currentTemperature.setDegrees(currentTemperature.getDegrees() + degrees);
 	}
 	
 	/**
@@ -121,8 +118,8 @@ public class Thermostat {
 	 * @param double degrees
 	 */
 	public void increaseC(double degrees) {
-		double newDegrees = toFarenheit(toCelsius(currentTemperature.getDegrees()) + degrees);
-		if(inLimit(newDegrees)) 
-			currentTemperature.setDegrees(newDegrees);
+		int newDegrees = currentTemperature.getDegrees()) + degrees;
+		if(inLimit(toFarenheit(degrees)))
+			currentTemperature.setDegrees(toFarenheit(toCelsius(currentTemperature.getDegrees()) + degrees));
 	}
 }

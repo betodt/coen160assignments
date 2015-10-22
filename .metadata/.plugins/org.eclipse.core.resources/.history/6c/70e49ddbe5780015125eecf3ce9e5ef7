@@ -122,7 +122,7 @@ public class Thermostat {
 	 */
 	public void increaseC(double degrees) {
 		double newDegrees = toFarenheit(toCelsius(currentTemperature.getDegrees()) + degrees);
-		if(inLimit(newDegrees)) 
+		if(inLimit(newDegrees) {
 			currentTemperature.setDegrees(newDegrees);
 	}
 }
