@@ -1,8 +1,0 @@
-package diaztostado.assign1;
-
-public class Picture extends Rectangle{
-	private String title;
-	private String artist;
-	
-	
-}
