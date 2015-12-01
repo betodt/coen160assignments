@@ -1,0 +1,48 @@
+package myExpenseTracker;
+
+import java.io.*;
+import java.util.*;
+import java.awt.Color;
+
+import javax.swing.JTextField;
+
+class Expense{
+	String expense;
+	int amount;
+	
+	public Expense (String expense, int amount){
+		this.expense = expense;
+		this.amount = amount;
+	}
+	public int getAmount(){
+		return amount;
+	}
+}
+public class DataManager {
+
+	
+	private Map<Color, Expense> expenses = new LinkedHashMap<Color, Expense>();
+	
+	private Color [] expenseColors;
+	
+	public void Update(JTextField[] form) 
+    {
+    	Expense expense;
+    	expenseColors = new Color[4];
+    	expenseColors[0] = Color.red;
+    	expenseColors[1] = Color.green;
+    	expenseColors[2] = Color.blue;
+    	expenseColors[3] = Color.black;
+    	
+    	for (JTextField textField : form) {
+    		System.out.println(textField);
+			int amount = Integer.parseInt(textField.getText());
+		}
+    }
+
+    public Map<Color, Expense> getData()
+    {
+    	return expenses;
+    }
+    
+}

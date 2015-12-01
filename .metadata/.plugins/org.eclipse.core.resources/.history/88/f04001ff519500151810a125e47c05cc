@@ -1,0 +1,32 @@
+package myExpenseTracker;
+
+import java.io.*;
+import java.util.*;
+import java.awt.Color;
+
+class Expense{
+	String expense;
+	int amount;
+	
+	public Expense (String expense, int amount){
+		this.expense = expense;
+		this.amount = amount;
+	}
+	public int getAmount(){
+		return amount;
+	}
+}
+public class DataManager{
+
+	
+	private Map<Color, Expense> expenses =
+            new LinkedHashMap<Color, Expense>();
+	
+	private Color [] expenseColors;
+
+    public Map<Color, Expense> getData()
+    {
+    	return expenses;
+    }
+    
+}

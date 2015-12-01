@@ -1,0 +1,102 @@
+/**
+ * 
+ */
+package myExpenseTracker;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Observable;
+import java.util.Observer;
+
+import javax.swing.*;
+
+import java.awt.*;
+import java.util.*;
+
+/**
+ * @author Alberto Diaz
+ *
+ */
+public class App extends JFrame implements ActionListener, Observer {
+	// buttons
+	private JButton expenseBtn;
+	// dropdown lists
+	private JComboBox expenseList;
+	// text fields
+	private JTextField expenseField;
+	private JTextField foodField;
+	private JTextField shoppingField;
+	private JTextField entertainField;
+	private JTextField gasField;
+	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	public App(){
+		super("myExpenseTracker");
+		//get content pane
+		Container container = getContentPane();
+		// set the layout
+	    container.setLayout(new BorderLayout());
+		
+		//create expense components
+		String[] expenseTypes = { "Daily", "Monthly", "Yearly" };
+		JLabel expenseLabel = new JLabel("Enter dollar limt and time period");
+		expenseField = new JTextField(10);		
+		expenseList = new JComboBox(expenseTypes);
+		expenseBtn = new JButton("Add");
+		
+		container.add(expenseLabel, BorderLayout.CENTER);
+		container.add(expenseField);
+		container.add(expenseList);
+		container.add(expenseBtn);
+		
+		//create category components
+		JLabel categoryLabel = new JLabel("Enter amount spents for each category");
+		JLabel foodLabel = new JLabel("Food: ");
+		foodField = new JTextField(10);
+		JLabel shoppingLabel = new JLabel("Shopping: ");
+		shoppingField = new JTextField(10);
+		JLabel entertainLabel = new JLabel("Entertainment: ");
+		entertainField = new JTextField(10);
+		JLabel gasLabel = new JLabel("Gas: ");
+		gasField = new JTextField(10);
+		
+		container.add(categoryLabel, BorderLayout.WEST);
+		container.add(foodLabel);
+		container.add(foodField);
+		container.add(shoppingLabel);
+		container.add(shoppingField);
+		container.add(entertainLabel);
+		container.add(entertainField);
+		container.add(gasLabel);
+		container.add(gasField);
+		
+		//create 
+		setSize(600,300);
+		setLocationRelativeTo(null);
+	    setVisible( true );
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		App application = new App();
+
+	      application.setDefaultCloseOperation(
+	         JFrame.EXIT_ON_CLOSE );
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

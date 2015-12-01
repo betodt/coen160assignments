@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="java.lang.Boolean"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.ORB"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Rectangle"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Circle"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Picture"/>
@@ -11,8 +10,18 @@
 <fullyQualifiedTypeName name="diaztostado.assign1.Square"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Box"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.FramedPicture"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Frame"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.Wheel"/>
 <fullyQualifiedTypeName name="diaztostado.assign1.SoapBoxRacer"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="myExpenseTracker.App"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

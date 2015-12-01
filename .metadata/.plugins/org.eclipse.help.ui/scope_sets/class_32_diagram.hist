@@ -1,0 +1,4 @@
+#Mon Nov 30 18:59:06 PST 2015
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=class diagram
